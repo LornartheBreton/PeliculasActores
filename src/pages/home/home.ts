@@ -21,6 +21,13 @@ export class HomePage {
           actor: "Keir Dullea",
           imagenA: "../assets/imgs/dullea.jpg",
           id:0
+        },
+        {
+          nombre: "Frank Poole",
+          imagen: "../assets/imgs/fP.jpg",
+          actor: "Gary Lockwood",
+          imagenA: "../assets/imgs/gL.jpg",
+          id:1         
         }
       ]
     },
