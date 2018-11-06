@@ -14,8 +14,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'actors.html',
 })
 export class ActorsPage {
-
+  imagen;
+  actor;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.imagen=this.navParams.get('imagenA');
+    this.actor=this.navParams.get('actor');
   }
 
   ionViewDidLoad() {
